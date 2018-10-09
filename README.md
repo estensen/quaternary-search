@@ -19,12 +19,12 @@ T(n) = T(n/4) + 5, T(1) = 1
 
 Time complexity for binary search:
 ```
-2log<sub>2</sub>(n) + O(1) = 2log(n) / log(2)
+2log_2(n) + O(1) = 2log(n) / log(2)
 ```
 
 Time complexity for quaternary search:
 ```
-5log<sub>4</sub>(n) + O(1) = 5log(n) / log(4) = 5log(n) / 2 log(2)
+5log_4(n) + O(1) = 5log(n) / log(4) = 5log(n) / 2 log(2)
 ```
 
 Since n > 1 and 5/2 > 2 quaternary search does more comparisons in worst case
